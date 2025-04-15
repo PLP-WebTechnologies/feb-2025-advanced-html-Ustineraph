@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development Week 2 Assignment</title>
+</head>
+<body>
+  <h1>Week 2 Project 🎉</h1>
+  
+  <p>Hello! This is my Week 2 web development project. I'm learning how to structure an HTML page with headings, paragraphs, images, and links.</p>
+
+  <hr>
+
+  <h2>Topics Covered</h2>
+  <ol type="I">
+    <li>HTML 5 Elements</li>
+    <li>Forms and Input Types</li>
+    <li>Multimedia Elements</li>
+    <li>Validation Techniques</li>
+  </ol>
+
+  <hr>
+
+  <h2>My Inspiration Image</h2>
+  <img src="https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    alt="My Determination to be more in web Development" width="500"/>
+
+  <hr>
+
+  <h2>My Contact Table</h2>
+  <table border="2" cellpadding="10">
+    <caption><strong>📇 My Top 5 Contacts</strong></caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr> 
+        <td>John Doe</td>
+        <td>Lagos, Nigeria</td>
+        <td>08012345678</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>Abuja, Nigeria</td>
+        <td>08023456789</td>
+        <td>jane@example.com</td>
+      </tr>
+      <tr>
+        <td>Tolu Ibiojo</td>
+        <td>Oyo, Nigeria</td>
+        <td>08034567890</td>
+        <td>Ibiojoaugustine@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Ada Obi</td>
+        <td>Enugu, Nigeria</td>
+        <td>08045678901</td>
+        <td>ada@example.com</td>
+      </tr>
+      <tr>
+        <td>Bola Tinubu</td>
+        <td>Lekki, Lagos</td>
+        <td>08056789012</td>
+        <td>tinubu@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h2>📋 Registration Form</h2>
+  <form action="#" method="post">
+    <!-- Full Name -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter a strong password" required><br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Gender (Radio buttons) -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <!-- Interests (Checkboxes) -->
+    <label>Areas of Interest:</label><br>
+    <input type="checkbox" id="frontend" name="interest" value="frontend">
+    <label for="frontend">Frontend</label><br>
+    <input type="checkbox" id="backend" name="interest" value="backend">
+    <label for="backend">Backend</label><br>
+    <input type="checkbox" id="design" name="interest" value="design">
+    <label for="design">UI/UX Design</label><br><br>
+
+    <!-- Dropdown -->
+    <label for="course">Choose a Course:</label><br>
+    <select id="course" name="course" required>
+      <option value="">--Select--</option>
+      <option value="html">HTML & CSS</option>
+      <option value="javascript">JavaScript Basics</option>
+      <option value="python">Intro to Python</option>
+    </select><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Register">
+  </form>
+
+  <hr>
+
+  <p>Check out <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a> for more on HTML.</p>
+
+  <footer>
+    <p>&copy; 2025 Ustineraph | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
